@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-class BlogIndex extends React.Component {
+class About extends React.Component {
   render() {
     const { data } = this.props
 
@@ -22,7 +22,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default About
 
 export const pageQuery = graphql`
   query {
